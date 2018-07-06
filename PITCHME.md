@@ -10,6 +10,9 @@ When REST isn't enough
 - Strongly typed
 - complex for small deployments
 
+Note:
+  - stay on topic here
+
 ---
 
 ### GraphQL vs. REST
