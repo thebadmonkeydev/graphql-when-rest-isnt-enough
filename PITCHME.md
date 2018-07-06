@@ -20,3 +20,16 @@ Note:
 - Resource driven
 - ad-hoc typing interface
 - entrenched in the Rails community
+
+---
+
+### Implementing
+## GraphQL in Ruby
+
+---
+
+- Because you can request more data, every client will
+
+---
+
+### Conclusions
