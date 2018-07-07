@@ -1,35 +1,59 @@
 # GraphQL
-
-When REST isn't enough
-
----
-
-### What is GraphQL?
-
-- Client driven
-- Strongly typed
-- complex for small deployments
-
-Note:
-  - stay on topic here
+### When REST isn't enough
 
 ---
 
-### GraphQL vs. REST
+## When REST isn't enough
 
-- Resource driven
-- ad-hoc typing interface
-- entrenched in the Rails community
-
----
-
-### Implementing
-## GraphQL in Ruby
+  - Incomplete data sets
+  - Multiple network requests for a full data context
+  - Wasted bandwidth when the client needs a small data set
 
 ---
 
-- Because you can request more data, every client will
+## Enter GraphQL
+  - What it is
+  - Where it came from
+    - Rapid client development
+    - API evolution
 
 ---
 
-### Conclusions
+## GraphQL vs. REST
+  - REST is:
+    - Well known and intrinsic in Rails
+    - Simpler with lower switching costs
+    - Complex for production-scale applications
+    - Ad-hoc and often internally motivated abstraction
+  - GraphQL is:
+    - Client-driven
+    - Type system
+      - Define-it-and-forget-it
+      - Strongly typed
+      - Clean layer of abstraction
+    - Overly complex for small-scale deployments
+
+---
+
+## Should you adopt GraphQL?
+  - They have more than one client application
+  - A mobile client/focus on latency and bandwidth
+  - Entrenched REST API with ballooning complexity
+  - Decouple FE and BE development
+  - Business perspective
+
+---
+
+## GraphQL the Ruby Way
+  - The `graphql-ruby` gem
+    - Existing implementation
+    - New class-based implementation
+  - Basic setup in a Rails app
+  - Strategies for introducing GraphQL to existing REST APIs
+
+---
+
+## Conclusions and moving forward
+  - Community
+  - Adoption Strategies
+    - Real world example from StackShare's feed
